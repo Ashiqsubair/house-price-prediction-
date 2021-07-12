@@ -72,7 +72,7 @@ if submit:
         st.balloons()
 #Creating Sidebar
 
-st.sidebar.balloons()
+
 st.sidebar.image(image='ICFOSS_logo.png',width=200)
 
 st.sidebar.subheader('Dataset Used')
@@ -81,5 +81,6 @@ st.sidebar.select_slider(label='Feedback',options=['poor','average','good','exce
 
 if st.sidebar.button(label="Submit"):
     st.sidebar.success("Thank you for your Feedback")
+    st.sidebar.balloons()
 st.sidebar.subheader('About')
 st.sidebar.write('Project Of Machine Learning with ICFOSS')
