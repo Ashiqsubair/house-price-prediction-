@@ -64,7 +64,7 @@ if submit:
         st.error("Area Should not be less than 250!")
     elif Name=="" or Name=="null":
         st.error("Name Should not be Blank")
-    elif len(Phone)<9:
+    elif len(Phone)<10:
         st.error("Enter a valid Phone Number")
     else:
         prediction = classifier.predict([topredict])
