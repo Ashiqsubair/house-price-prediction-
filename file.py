@@ -6,10 +6,10 @@ import base64
 
 #Creating Background
 
-main_bg = "background3.jpg"
+main_bg = "backgroundnew.jpg"
 main_bg_ext = "jpg"
 
-side_bg = "background3.jpg"
+side_bg = "backgroundnew.jpg"
 side_bg_ext = "jpg"
 
 st.markdown(
