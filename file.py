@@ -61,7 +61,7 @@ transaction,type]
 submit = st.button('Predict')
 if submit:
     if area<250 :
-        st.error("Area Should not be less than 250!")
+        st.error("Area Should not be less than 250sq.ft!")
     elif Name=="" or Name=="null":
         st.error("Name Should not be Blank")
     elif len(Phone)<10:
